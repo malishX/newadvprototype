@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | NexusAI</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .service-card:hover .service-icon {
+            transform: rotateY(180deg);
+        }
+
+        .service-icon {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #6e8efb, #a777e3);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex-shrink-0 flex items-center">
+                        <i data-feather="cpu" class="h-8 w-8 text-indigo-600"></i>
+                        <span class="ml-2 text-xl font-bold text-gray-900">NexusAI</span>
+                    </a>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:space-x-8">
+                    <a href="index.html"
+                        class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Home</a>
+                    <a href="services.html"
+                        class="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Services</a>
+                    <a href="solutions.html"
+                        class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Solutions</a>
+                    <a href="about.html"
+                        class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">About</a>
+                    <a href="contact.html"
+                        class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Contact</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button"
+                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-white pt-24 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+                    Our <span class="gradient-text">Services</span>
+                </h1>
+                <p class="mt-6 max-w-lg mx-auto text-xl text-gray-500" data-aos="fade-up">
+                    Comprehensive AI and IoT solutions tailored to your business needs.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="py-12 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Service 1 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-100 mx-auto">
+                            <div class="service-icon">
+                                <i data-feather="code" class="h-8 w-8 text-indigo-600"></i>
+                            </div>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-center text-gray-900">Custom AI Development</h3>
+                        <p class="mt-2 text-base text-gray-500 text-center">
+                            Bespoke artificial intelligence solutions designed specifically for your business
+                            challenges.
+                        </p>
+                        <ul class="mt-4 space-y-2">
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Machine learning models</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Computer vision systems</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Natural language processing</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-100 mx-auto">
+                            <div class="service-icon">
+                                <i data-feather="wifi" class="h-8 w-8 text-indigo-600"></i>
+                            </div>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-center text-gray-900">IoT Platform Development</h3>
+                        <p class="mt-2 text-base text-gray-500 text-center">
+                            End-to-end IoT solutions from device hardware to cloud connectivity and data analytics.
+                        </p>
+                        <ul class="mt-4 space-y-2">
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Sensor networks</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Edge computing</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Device management</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-100 mx-auto">
+                            <div class="service-icon">
+                                <i data-feather="cloud" class="h-8 w-8 text-indigo-600"></i>
+                            </div>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-center text-gray-900">Cloud Integration</h3>
+                        <p class="mt-2 text-base text-gray-500 text-center">
+                            Seamless integration with leading cloud platforms for scalable AI and IoT deployments.
+                        </p>
+                        <ul class="mt-4 space-y-2">
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">AWS IoT Core</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Azure IoT Hub</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Google Cloud IoT</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-100 mx-auto">
+                            <div class="service-icon">
+                                <i data-feather="shield" class="h-8 w-8 text-indigo-600"></i>
+                            </div>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-center text-gray-900">Security Solutions</h3>
+                        <p class="mt-2 text-base text-gray-500 text-center">
+                            Comprehensive security for your AI models and IoT devices against emerging threats.
+                        </p>
+                        <ul class="mt-4 space-y-2">
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Device authentication</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Data encryption</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">AI model protection</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-100 mx-auto">
+                            <div class="service-icon">
+                                <i data-feather="bar-chart-2" class="h-8 w-8 text-indigo-600"></i>
+                            </div>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-center text-gray-900">Data Analytics</h3>
+                        <p class="mt-2 text-base text-gray-500 text-center">
+                            Transform raw IoT data into actionable insights with our advanced analytics platform.
+                        </p>
+                        <ul class="mt-4 space-y-2">
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Real-time monitoring</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Predictive analytics</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Custom dashboards</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-100 mx-auto">
+                            <div class="service-icon">
+                                <i data-feather="smartphone" class="h-8 w-8 text-indigo-600"></i>
+                            </div>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-center text-gray-900">Mobile Applications</h3>
+                        <p class="mt-2 text-base text-gray-500 text-center">
+                            Intuitive mobile interfaces that connect users with your AI and IoT systems.
+                        </p>
+                        <ul class="mt-4 space-y-2">
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Cross-platform development</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Device control</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="h-5 w-5 text-green-500 mr-2"></i>
+                                <span class="text-sm text-gray-600">Push notifications</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Process Section -->
+    <div class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase" data-aos="fade-up">
+                    Methodology</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+                    data-aos="fade-up">
+                    Our Development Process
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto" data-aos="fade-up">
+                    A structured approach to delivering high-quality AI and IoT solutions.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="relative">
+                    <div class="absolute left-1/2 h-full border-l-2 border-gray-200 border-dashed"></div>
+                    <div class="space-y-8">
+                        <!-- Step 1 -->
+                        <div class="relative" data-aos="fade-right">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-500 text-white absolute left-1/2 transform -translate-x-1/2">
+                                <span class="font-bold">1</span>
+                            </div>
+                            <div class="ml-16 mr-8 bg-gray-50 p-6 rounded-lg">
+                                <h3 class="text-lg font-medium text-gray-900">Discovery & Planning</h3>
+                                <p class="mt-2 text-base text-gray-500">
+                                    We begin by thoroughly understanding your business objectives, technical
+                                    requirements, and success metrics.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="relative" data-aos="fade-left">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-500 text-white absolute left-1/2 transform -translate-x-1/2">
+                                <span class="font-bold">2</span>
+                            </div>
+                            <div class="mr-16 ml-8 bg-gray-50 p-6 rounded-lg">
+                                <h3 class="text-lg font-medium text-gray-900">Prototype Development</h3>
+                                <p class="mt-2 text-base text-gray-500">
+                                    We create a working prototype to validate the technical approach and gather early
+                                    feedback.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="relative" data-aos="fade-right">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-500 text-white absolute left-1/2 transform -translate-x-1/2">
+                                <span class="font-bold">3</span>
+                            </div>
+                            <div class="ml-16 mr-8 bg-gray-50 p-6 rounded-lg">
+                                <h3 class="text-lg font-medium text-gray-900">Iterative Development</h3>
+                                <p class="mt-2 text-base text-gray-500">
+                                    We develop the solution in agile sprints, with regular demos and opportunities for
+                                    course correction.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="relative" data-aos="fade-left">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-500 text-white absolute left-1/2 transform -translate-x-1/2">
+                                <span class="font-bold">4</span>
+                            </div>
+                            <div class="mr-16 ml-8 bg-gray-50 p-6 rounded-lg">
+                                <h3 class="text-lg font-medium text-gray-900">Testing & Optimization</h3>
+                                <p class="mt-2 text-base text-gray-500">
+                                    We rigorously test the solution across all components and optimize for performance.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Step 5 -->
+                        <div class="relative" data-aos="fade-right">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-500 text-white absolute left-1/2 transform -translate-x-1/2">
+                                <span class="font-bold">5</span>
+                            </div>
+                            <div class="ml-16 mr-8 bg-gray-50 p-6 rounded-lg">
+                                <h3 class="text-lg font-medium text-gray-900">Deployment & Support</h3>
+                                <p class="mt-2 text-base text-gray-500">
+                                    We deploy the solution to production and provide ongoing maintenance and support.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="bg-indigo-700">
+        <div class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl" data-aos="fade-up">
+                <span class="block">Ready to discuss your project?</span>
+                <span class="block">Let's build something amazing together.</span>
+            </h2>
+            <p class="mt-4 text-lg leading-6 text-indigo-200" data-aos="fade-up">
+                Our team is ready to help you navigate the complex world of AI and IoT.
+            </p>
+            <a href="contact.html"
+                class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50 sm:w-auto"
+                data-aos="fade-up">
+                Get in Touch
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Company</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="about.html" class="text-base text-gray-300 hover:text-white">About</a></li>
+                        <li><a href="services.html" class="text-base text-gray-300 hover:text-white">Services</a></li>
+                        <li><a href="solutions.html" class="text-base text-gray-300 hover:text-white">Solutions</a></li>
+                        <li><a href="contact.html" class="text-base text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Resources</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Blog</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Case Studies</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Whitepapers</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Webinars</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Privacy</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Terms</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Connect</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Twitter</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">LinkedIn</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">GitHub</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
+                <div class="flex space-x-6 md:order-2">
+                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                        <i data-feather="twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                        <i data-feather="github"></i>
+                    </a>
+                </div>
+                <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+                    &copy; 2023 NexusAI Technologies. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+        feather.replace();
+    </script>
+</body>
+
+</html>

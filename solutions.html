@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industry Solutions | NexusAI</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .solution-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .industry-bg {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex-shrink-0 flex items-center">
+                        <i data-feather="cpu" class="h-8 w-8 text-indigo-600"></i>
+                        <span class="ml-2 text-xl font-bold text-gray-900">NexusAI</span>
+                    </a>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:space-x-8">
+                    <a href="index.html"
+                        class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Home</a>
+                    <a href="services.html"
+                        class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Services</a>
+                    <a href="solutions.html"
+                        class="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Solutions</a>
+                    <a href="about.html"
+                        class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">About</a>
+                    <a href="contact.html"
+                        class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Contact</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button"
+                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-gray-50 pt-24 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+                    data-aos="fade-up">
+                    Industry <span class="gradient-text">Solutions</span>
+                </h1>
+                <p class="mt-6 max-w-lg mx-auto text-xl text-gray-500" data-aos="fade-up">
+                    Tailored IoT and AI solutions designed for your specific industry needs.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Solutions Grid -->
+    <div class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase" data-aos="fade-up">
+                    Industries We Serve</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+                    data-aos="fade-up">
+                    Transformative Solutions Across Sectors
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Manufacturing -->
+                    <div class="solution-card transition-all duration-300 ease-in-out bg-gray-50 rounded-lg overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <div class="industry-bg h-48"
+                            style="background-image: url('http://static.photos/industry/640x360/1');"></div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-medium text-gray-900">Smart Manufacturing</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Predictive maintenance, quality control, and supply chain optimization with IoT and AI.
+                            </p>
+                            <div class="mt-4">
+                                <a href="#" class="text-indigo-600 hover:text-indigo-500 text-sm font-medium">
+                                    Learn more <span aria-hidden="true">&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Healthcare -->
+                    <div class="solution-card transition-all duration-300 ease-in-out bg-gray-50 rounded-lg overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="200">
+                        <div class="industry-bg h-48"
+                            style="background-image: url('http://static.photos/medical/640x360/2');"></div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-medium text-gray-900">Healthcare</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Remote patient monitoring, medical imaging analysis, and hospital asset tracking.
+                            </p>
+                            <div class="mt-4">
+                                <a href="#" class="text-indigo-600 hover:text-indigo-500 text-sm font-medium">
+                                    Learn more <span aria-hidden="true">&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Retail -->
+                    <div class="solution-card transition-all duration-300 ease-in-out bg-gray-50 rounded-lg overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="300">
+                        <div class="industry-bg h-48"
+                            style="background-image: url('http://static.photos/retail/640x360/3');"></div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-medium text-gray-900">Smart Retail</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Personalized shopping experiences, inventory management, and loss prevention.
+                            </p>
+                            <div class="mt-4">
+                                <a href="#" class="text-indigo-600 hover:text-indigo-500 text-sm font-medium">
+                                    Learn more <span aria-hidden="true">&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Agriculture -->
+                    <div class="solution-card transition-all duration-300 ease-in-out bg-gray-50 rounded-lg overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="400">
+                        <div class="industry-bg h-48"
+                            style="background-image: url('http://static.photos/agriculture/640x360/4');"></div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-medium text-gray-900">Precision Agriculture</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Crop monitoring, automated irrigation, and yield prediction with IoT sensors and AI.
+                            </p>
+                            <div class="mt-4">
+                                <a href="#" class="text-indigo-600 hover:text-indigo-500 text-sm font-medium">
+                                    Learn more <span aria-hidden="true">&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Energy -->
+                    <div class="solution-card transition-all duration-300 ease-in-out bg-gray-50 rounded-lg overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="500">
+                        <div class="industry-bg h-48"
+                            style="background-image: url('http://static.photos/energy/640x360/5');"></div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-medium text-gray-900">Energy & Utilities</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Smart grids, predictive maintenance for infrastructure, and energy consumption
+                                optimization.
+                            </p>
+                            <div class="mt-4">
+                                <a href="#" class="text-indigo-600 hover:text-indigo-500 text-sm font-medium">
+                                    Learn more <span aria-hidden="true">&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Transportation -->
+                    <div class="solution-card transition-all duration-300 ease-in-out bg-gray-50 rounded-lg overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="600">
+                        <div class="industry-bg h-48"
+                            style="background-image: url('http://static.photos/transportation/640x360/6');"></div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-medium text-gray-900">Transportation & Logistics</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Fleet management, route optimization, and autonomous vehicle technologies.
+                            </p>
+                            <div class="mt-4">
+                                <a href="#" class="text-indigo-600 hover:text-indigo-500 text-sm font-medium">
+                                    Learn more <span aria-hidden="true">&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Case Studies -->
+    <div class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase" data-aos="fade-up">Success
+                    Stories</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+                    data-aos="fade-up">
+                    Real-World Impact
+                </p>
+            </div>
+
+            <div class="mt-12">
+                <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+                    <!-- Case Study 1 -->
+                    <div class="bg-white overflow-hidden shadow rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                        <div class="p-6">
+                            <div class="flex items-center">
+                                <div class="flex-shrink-0 bg-indigo-500 rounded-md p-3">
+                                    <i data-feather="factory" class="h-6 w-6 text-white"></i>
+                                </div>
+                                <div class="ml-5 w-0 flex-1">
+                                    <h3 class="text-lg font-medium text-gray-900">Industrial IoT for Manufacturing</h3>
+                                    <p class="mt-1 text-sm text-gray-500">
+                                        Global manufacturing company
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <p class="text-base text-gray-500">
+                                    Implemented predictive maintenance solution reducing equipment downtime by 35% and
+                                    saving $2.4M annually in maintenance costs.
+                                </p>
+                            </div>
+                            <div class="mt-6 flex">
+                                <div class="flex-shrink-0">
+                                    <img class="h-10 w-10 rounded-full" src="http://static.photos/people/200x200/1"
+                                        alt="Client">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">John Smith</p>
+                                    <p class="text-sm text-gray-500">COO, Manufacturing Corp</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 2 -->
+                    <div class="bg-white overflow-hidden shadow rounded-lg" data-aos="fade-up" data-aos-delay="200">
+                        <div class="p-6">
+                            <div class="flex items-center">
+                                <div class="flex-shrink-0 bg-indigo-500 rounded-md p-3">
+                                    <i data-feather="heart" class="h-6 w-6 text-white"></i>
+                                </div>
+                                <div class="ml-5 w-0 flex-1">
+                                    <h3 class="text-lg font-medium text-gray-900">AI in Healthcare</h3>
+                                    <p class="mt-1 text-sm text-gray-500">
+                                        Regional hospital network
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <p class="text-base text-gray-500">
+                                    Developed AI-powered diagnostic tool that improved early detection rates by 28%
+                                    while reducing false positives by 15%.
+                                </p>
+                            </div>
+                            <div class="mt-6 flex">
+                                <div class="flex-shrink-0">
+                                    <img class="h-10 w-10 rounded-full" src="http://static.photos/people/200x200/2"
+                                        alt="Client">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">Dr. Sarah Johnson</p>
+                                    <p class="text-sm text-gray-500">Chief Medical Officer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-10 text-center">
+                <a href="#"
+                    class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
+                    View All Case Studies
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Technology Partners -->
+    <div class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase" data-aos="fade-up">
+                    Technology</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+                    data-aos="fade-up">
+                    Our Technology Partners
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto" data-aos="fade-up">
+                    We work with the best technology platforms to deliver robust solutions.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+                    <div class="flex items-center justify-center" data-aos="fade-up" data-aos-delay="100">
+                        <img class="h-12" src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Nvidia_logo.svg"
+                            alt="Nvidia">
+                    </div>
+                    <div class="flex items-center justify-center" data-aos="fade-up" data-aos-delay="200">
+                        <img class="h-12" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+                            alt="AWS">
+                    </div>
+                    <div class="flex items-center justify-center" data-aos="fade-up" data-aos-delay="300">
+                        <img class="h-12" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+                            alt="Microsoft">
+                    </div>
+                    <div class="flex items-center justify-center" data-aos="fade-up" data-aos-delay="400">
+                        <img class="h-12"
+                            src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                            alt="Google">
+                    </div>
+                    <div class="flex items-center justify-center" data-aos="fade-up" data-aos-delay="500">
+                        <img class="h-12" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Ibm_logo.svg"
+                            alt="IBM">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="bg-indigo-700">
+        <div class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl" data-aos="fade-up">
+                <span class="block">Ready to transform your industry?</span>
+                <span class="block">Let's build something amazing together.</span>
+            </h2>
+            <a href="contact.html"
+                class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50 sm:w-auto"
+                data-aos="fade-up">
+                Get Started
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Company</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="about.html" class="text-base text-gray-300 hover:text-white">About</a></li>
+                        <li><a href="services.html" class="text-base text-gray-300 hover:text-white">Services</a></li>
+                        <li><a href="solutions.html" class="text-base text-gray-300 hover:text-white">Solutions</a></li>
+                        <li><a href="contact.html" class="text-base text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Resources</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Blog</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Case Studies</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Whitepapers</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Webinars</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Privacy</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Terms</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Connect</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">Twitter</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">LinkedIn</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">GitHub</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-white">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
+                <div class="flex space-x-6 md:order-2">
+                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                        <i data-feather="twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                        <i data-feather="github"></i>
+                    </a>
+                </div>
+                <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+                    &copy; 2023 NexusAI Technologies. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+        feather.replace();
+    </script>
+</body>
+
+</html>
